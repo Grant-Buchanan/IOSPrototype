@@ -14,6 +14,7 @@
 		1B558E87238758D600C5058D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B558E85238758D600C5058D /* LaunchScreen.storyboard */; };
 		1B558E92238758D700C5058D /* PrototypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B558E91238758D700C5058D /* PrototypeTests.swift */; };
 		1B558E9D238758D700C5058D /* PrototypeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B558E9C238758D700C5058D /* PrototypeUITests.swift */; };
+		1B558EAB23876AA600C5058D /* CustomBackButtonNavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B558EAA23876AA600C5058D /* CustomBackButtonNavController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		1B558E98238758D700C5058D /* PrototypeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrototypeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B558E9C238758D700C5058D /* PrototypeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrototypeUITests.swift; sourceTree = "<group>"; };
 		1B558E9E238758D700C5058D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B558EAA23876AA600C5058D /* CustomBackButtonNavController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBackButtonNavController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				1B558E7C238758D500C5058D /* AppDelegate.swift */,
 				1B558E7E238758D500C5058D /* ViewController.swift */,
+				1B558EAA23876AA600C5058D /* CustomBackButtonNavController.swift */,
 				1B558E80238758D500C5058D /* Main.storyboard */,
 				1B558E83238758D600C5058D /* Assets.xcassets */,
 				1B558E85238758D600C5058D /* LaunchScreen.storyboard */,
@@ -258,6 +261,7 @@
 			files = (
 				1B558E7F238758D500C5058D /* ViewController.swift in Sources */,
 				1B558E7D238758D500C5058D /* AppDelegate.swift in Sources */,
+				1B558EAB23876AA600C5058D /* CustomBackButtonNavController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
